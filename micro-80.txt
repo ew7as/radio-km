@@ -1,0 +1,6 @@
+<!--IMG1-->
+<a href="http://ssdtu-kes.tut.su/qrp_micro_80.png"
+ class="ulightbox" target="_blank"
+ title="Нажмите, для просмотра в полном размере..."><img
+ alt="" style="border: 0pt none ; margin: 0pt; padding: 0pt;"
+ src="http://ssdtu-kes.tut.su/sqrp_micro_80.jpg" align="" /></a><!--IMG1-->
