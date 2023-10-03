@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Реверсивный тракт на SA612. Основная плата трансивера
+Step/.</title>
+
+<meta name="keywords" content="SA612,NE602, трансивер STEP, реверсивный тракт на SA612, EW7AS" />
+<meta name="description" content="В журнале " р="" №4="" з="" 2012="" г="" б="" с="" и="" о="" п="" т="" step="" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="tabcontent.css" />
+<script type="text/javascript" src="tabcontent.js">
+/***********************************************
+* Tab Content script v2.2- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script>
+</head>
+<body style="direction: ltr;">
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2785096", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+if (d.getElementById(id)) return;
+var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script>
+<noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2785096;js=na"
+style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+<div id="templatemo_wrapper">
+<div id="templatemo_container">
+<div id="templatemo_menu">
+<div id="pettabs" class="indentmenu">
+<ul>
+<li><a href="index.html" rel="tab1">Главная</a></li>
+<li><a href="klim.html" rel="tab2">О своём
+городе</a></li>
+<li><a href="ant.html" rel="tab3">Антенны</a></li>
+<li><a href="sh_w.html" rel="tab4" class="selected">Радиосвязь
+на КВ</a></li>
+<li><a href="vhf.html" rel="tab5">Радиосвязь
+на УКВ</a></li>
+<li>
+<a href="http://qrz.by/forum/" rel="tab6" style="border-right: medium none;">Форум</a></li>
+</ul>
+</div>
+<div class="tabcontentstyle">
+<div id="tab1" class="tabcontent">&nbsp;</div>
+<div id="tab2" class="tabcontent">
+<ul>
+<li><a href="klim.html">О своём городе</a></li>
+</ul>
+</div>
+<div id="tab3" class="tabcontent">
+<ul>
+<li><a href="http://ew7as.narod.ru/ant-hf.html">Антенны
+КВ -
+диапазона.</a></li>
+<li><a href="http://ew7as.narod.ru/groza.html">Заземление.
+Грозозащита антенн и аппаратуры.</a></li>
+</ul>
+</div>
+<div id="tab4" class="tabcontent">
+<ul>
+<li><a href="opisanie.html">Краткое
+описание любительских КВ-диапазонов.</a></li>
+<li><a href="qrp.html">Набор
+для самостоятельного изготовления CW QRP трансивера.</a></li>
+</ul>
+</div>
+<div id="tab5" class="tabcontent">
+<ul>
+<li><a href="http://goryham.qrz.ru/techn/gm-160.htm">УКВ
+радиостанция Motorola GM-160.</a></li>
+<li><a href="http://dl2kq.de/trx/2-17.htm">Тест
+радиостанции Baofeng UV-5R.</a></li>
+<li><a href="http://dl2kq.de/trx/2-18.htm">Улучшение
+модуляции в Baofeng UV-5R.</a></li>
+</ul>
+</div>
+<div id="tab6" class="tabcontent">
+<ul>
+<li><a href="http://qrz.by/forum/" rel="tab6" style="border-right: medium none;">Форум</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- end of mneu -->
+<div id="templatemo_banner">
+<h1>Сайт радиолюбителей</h1>
+<p>города Климовичи.</p>
+</div>
+<div id="templatemo_content">
+<div id="content_top"></div>
+<div class="templatemo_content_section_01">
+<h2>Реверсивный тракт на SA612A. Основная плата трансивера Step.</h2>
+<img style="width: 441px; height: 168px; float: left;" alt="" title="Трансивер Step" src="Step1_mini.jpg" hspace="12" vspace="12" />
+<p>В журнале "Радиоежегодник" №4 за 2012 год была опубликована
+схема и описание основной платы трансивера Step.<br />
+<br />
+Я собрал на основе этой платы тансивер Step с использованием <a href="dds.html">DDS синтезатора на AD9850</a>,
+дополнительные изменения
+выполнены по рекомендациям С. Беленецкого: добавлен резистор 2.4 кОм
+между 1 и
+второй ножкой микросхемы DA1.
+<br />
+Мне попалась одна неисправная микросхема 74HC4053: ключ, который
+коммутирует сигнал со входа Mic на первый вывод DA2 не переключался и
+микрофонный вход всё время был закорочен на корпус. </p>
+<p>&nbsp;</p>
+<p>В качестве микрофонного усилителя был использован <a href="http://lasto.com/blog/index_post_1552374000.htm#3.1.3">компрессор
+речевого сигнала на микросхеме SSM2167.</a>
+С выхода платы компрессора звуковой сигнал через резистор 6.8 кОм,
+который
+совместно к конденсатором C30 ёмкостью 10 нФ на основной плате образует
+НЧ фильтр с
+частотой среза 2.3 кГц, был подан на вход Mic.
+</p>
+<p>&nbsp;</p>
+<p> В качестве микросхемы стабилизатора DA3 я использовал 76L08,
+подобрал
+только резистор R9 в цепи истока транзистора УПЧ VT1. По даташиту, при
+напряжении питания микросхемы 74HC4053 9 В сопротивление открытого
+ключа составляет 50 Ом и увеличивается со снижением напряжения питания.
+В ключе управления резистор R2 10 кОм заменил на 680 Ом и параллельно
+конденсатору C3 10 nF установил стабилитрон на 5,6 В.
+<br />
+<br />
+<br />
+</p>
+<p><a href="trx_step.gif" target="_blank="><img style="border: 2px solid ; width: 893px; height: 465px;" alt="Схема основной платы трансивера Step. Нажмите на картинку, чтобы открыть изображение в новом окне." src="trx_step_mini.gif" align="middle" hspace="12" vspace="12" /></a></p>
+<p>Схема реверсивного тракта на SA612. Основная плата трансивера
+Step.</p>
+<p>&nbsp;</p>
+<p><a href="plata.jpg" target="_blank="><img style="border: 2px solid ; width: 893px; height: 388px;" alt="Печатная плата трансивера Step. Нажмите на изображение, чтобы открыть в новом окне." src="plata_mini.jpg" align="middle" hspace="12" vspace="12" /></a></p>
+<p>Печатная плата трансивера Step.</p>
+<p>&nbsp;</p>
+<p><a href="plata-1.jpg" target="_blank="><img style="border: 2px solid ; width: 893px; height: 403px;" alt="Печатная плата трансивера Step. Нажмите на изображение, чтобы открыть в новом окне." src="plata-1_mini.jpg" align="middle" hspace="12" vspace="12" /></a></p>
+<p>Основная плата трансивера Step.</p>
+<p>&nbsp;</p>
+<p>
+</p><ul>
+<li><a href="https://us5msq.com.ua/forum/viewtopic.php?f=8&amp;t=141">Трансивер
+Step. Форум на сайте автора, US5MSQ.</a></li>
+<li><a href="http://www.cqham.ru/forum/showthread.php?9839-%D0%E5%E2%E5%F0%F1%E8%E2%ED%FB%E9-%F2%F0%E0%EA%F2-%ED%E0-SA612A">Реверсивный
+тракт на SA612A. Форум на сайте CQHAM.RU</a></li>
+</ul>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>Владимир, EW7AS</p>
+<p>&nbsp;</p>
+</div>
+</div>
+<div id="templatemo_footer">
+<p><a href="index.html">Главная</a> | <a href="klim.html">О своём городе</a>
+| <a href="ant.html">Антенны</a> | <a href="sh_w.html">Радиосвязь на КВ</a>
+| <a href="vhf.html">Радиосвязь на УКВ</a>
+|<a href="http://qrz.by/forum/">Форум</a> </p>
+<script language="JavaScript">gk5i='<a href="mai';kj43='lto:';w3o4='ew7as';gt2e='&#64';v53a='yandex.by';wl49='"';b3d4='>' + 'ew7as@yandex.by' + '</a>';document.write(gk5i + kj43 + w3o4 + gt2e + v53a + wl49 + b3d4);</script>
+<p>Copyright &copy; 2023 <a href="index.html"><strong>Сайт
+радиолюбителей г. Климовичи</strong></a> | Design studio
+&laquo;Zurbagan&raquo;</p>
+<p>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+(w[c] = w[c] || []).push(function() {
+try {
+w.yaCounter27749133 = new Ya.Metrika({id:27749133,
+clickmap:true,
+trackLinks:true,
+accurateTrackBounce:true});
+} catch(e) { }
+});
+var n = d.getElementsByTagName("script")[0],
+s = d.createElement("script"),
+f = function () { n.parentNode.insertBefore(s, n); };
+s.type = "text/javascript";
+s.async = true;
+s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+if (w.opera == "[object Opera]") {
+d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/27749133"
+style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- end of footer --></p>
+</div>
+</div>
+</div>
+</body></html>
